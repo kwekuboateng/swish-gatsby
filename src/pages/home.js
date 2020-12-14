@@ -21,7 +21,7 @@ import Person8 from "../staticrab/homepage/_next/static/images/person_8-3579374f
 import Person15 from "../staticrab/homepage/_next/static/images/person_15-2c2e24621c42972e306dfe244227fcd9.jpg"
 import Person16 from "../staticrab/homepage/_next/static/images/person_16-f221b24fc37acca2e1edf3ec5bb4dd99.jpg"
 
-const IndexPage = () => {
+const Home = () => {
   const [lightbox, setLightbox] = useState({
     lightboxOpen: false,
   })
@@ -81,7 +81,7 @@ const IndexPage = () => {
                 </button>
                 <div className="pull-xs-left tw-public-navigation__logo ">
                   <a
-                    href="https://swiss transer.com"
+                    href="https://swisstransfer.com"
                     className="logo-text logo-text-inverse visible-xs-block visible-sm-block"
                   >
                     <span className="sr-only">swiss transer</span>
@@ -9532,4 +9532,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default Home
